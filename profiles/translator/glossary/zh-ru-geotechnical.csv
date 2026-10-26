@@ -1,0 +1,23 @@
+source,target,status,note
+岩土工程勘察,инженерно-геотехнические изыскания,approved,canonical project term
+岩土工程,инженерная геотехника,review,context-dependent
+勘察,изыскания,approved,
+规范,нормы,review,use standard when referring to the document class
+强制性条文,обязательное положение,approved,
+地基,основание,approved,
+承载力,несущая способность,approved,
+地下水,подземные воды,approved,
+土层,слой грунта,approved,
+岩石,скальная порода,approved,
+黏性土,связный грунт,review,may be clayey soil by context
+砂土,песчаный грунт,approved,
+碎石土,крупнообломочный грунт,review,
+勘探点,точка разведки,review,
+勘探孔,разведочная скважина,approved,
+取土器,грунтонос,review,
+液化,разжижение,approved,
+静力触探,статическое зондирование,approved,
+动力触探,динамическое зондирование,approved,
+旁压试验,прессиометрическое испытание,approved,
+剪切强度,сопротивление сдвигу,approved,
+变形模量,модуль деформации,approved,

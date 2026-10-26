@@ -1,0 +1,32 @@
+# Never commit live Hermes state or credentials.
+.env
+*.env
+auth.json
+auth.lock
+state.db
+state.db-*
+sessions/
+logs/
+cache/
+cron/
+memories/
+checkpoints/
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Translation source/output documents stay outside this repository.
+inbox/
+work/
+output/
+*.pdf
+*.docx
+*.pptx
+*.xlsx

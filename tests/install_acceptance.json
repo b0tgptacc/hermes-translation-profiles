@@ -1,0 +1,29 @@
+{
+  "status": "PASS_WITH_EXPECTED_AUTH_BLOCKER",
+  "tested_at": "2026-10-26",
+  "isolated_hermes_home": true,
+  "name_prefix": "acceptance",
+  "profiles": {
+    "acceptancetranslator": {
+      "model": "gpt-5.6-sol",
+      "provider": "openai-codex",
+      "skills": 8,
+      "config_check": "PASS",
+      "workspace_rules": true,
+      "glossaries": 2
+    },
+    "acceptancefasttranslator": {
+      "model": "gpt-5.6-sol",
+      "provider": "openai-codex",
+      "skills": 0,
+      "enabled_tools": 0,
+      "reasoning_effort": "none",
+      "config_check": "PASS",
+      "file_wrapper": true,
+      "windows_launcher": true,
+      "posix_launcher": true
+    }
+  },
+  "live_model_call": "NOT_RUN — isolated test home intentionally contained no credentials",
+  "note": "The production profiles were separately live-tested before packaging. Target devices must authenticate locally with hermes auth add openai-codex."
+}

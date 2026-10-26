@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "purpose": "Portable credential-free Hermes translation profiles",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 78,
+      "sha256": "9e394d6174718f44a706ef4fe56f65f0935777876bb21e86566b7f41dd850c0c"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "size": 421,
+      "sha256": "6bf37727423f9eb993e5d6e056d870b5d033c3434cc367c6ea90f580831f9dba"
+    },
+    {
+      "path": ".gitignore",
+      "size": 365,
+      "sha256": "55a8fd34a2023a9f714beaec0371c29e64f2b6e870ad9dacc5196813d1ea7376"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "path": "README.md",
+      "size": 4494,
+      "sha256": "056fcac54454493b1293d0f03954cb8f267346668caf9bc1a4963f1973277cd0"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1248,
+      "sha256": "438ca91ba724579ff7bc74fde0ca8fa9d4f50c772b335868e97b49c7ad65112b"
+    },
+    {
+      "path": "profiles/fasttranslator/SOUL.md",
+      "size": 384,
+      "sha256": "7ebee71bc967110b455922a55530df64339d3ce28ede2c9bf1038ea9baead8f6"
+    },
+    {
+      "path": "profiles/fasttranslator/fasttranslate.py",
+      "size": 3100,
+      "sha256": "70d37eccf34ae642bb0c07b9f6dfedd06d8f745b06a626918a1d43a5f5e413cb"
+    },
+    {
+      "path": "profiles/fasttranslator/profile-spec.json",
+      "size": 1060,
+      "sha256": "0ef9624cd9a4f9bc7d728e43067d095be65259fbc7fcf072e0cc059299226b71"
+    },
+    {
+      "path": "profiles/translator/SOUL.md",
+      "size": 455,
+      "sha256": "cc8d3b3b1ee0449744a51a8194b3d8fd54c76b5a64e75b3ba2be32625923d99f"
+    },
+    {
+      "path": "profiles/translator/glossary/en-ru-geotechnical.csv",
+      "size": 760,
+      "sha256": "c3aec6ba6d3767c52f21b9792e457f52dd046b2dc4db5c204e01440919519050"
+    },
+    {
+      "path": "profiles/translator/glossary/zh-ru-geotechnical.csv",
+      "size": 1337,
+      "sha256": "3a373aacb289f38fb69a5bf9f92033f25a36397cac777c2a58f535aa0981d928"
+    },
+    {
+      "path": "profiles/translator/profile-spec.json",
+      "size": 752,
+      "sha256": "ea520007de1275ba795220d9c2372a5524ed0eae012f9da683a62731d34377c9"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/document-intelligence-pipelines/SKILL.md",
+      "size": 7611,
+      "sha256": "7eded0faa9b39f660e860ec15835e6352475ced7c3423a54eb18a7832fe38ae7"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/document-intelligence-pipelines/references/cloud-safe-document-transformation.md",
+      "size": 4455,
+      "sha256": "39b414a32165adb79bc2c84a5919993c8d7252db73e0ad1d68a19849f685340a"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/document-intelligence-pipelines/references/qwen-document-capabilities.md",
+      "size": 3118,
+      "sha256": "25c7690c5b84da7ea2ddf87d6f81bf14b18009131434cef0faac3d727dbc9599"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/LICENSE",
+      "size": 1091,
+      "sha256": "e3cbb473240e1d307d61809891b26ae8956e401d39ad2ea5e2c407d69298dbc5"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/SKILL.md",
+      "size": 10591,
+      "sha256": "436cc86b1b413ff8e879190c3f143b34b90e070a669584c220679344efe046b3"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/references/revisions-and-comments.md",
+      "size": 4085,
+      "sha256": "283c0385099c6a9b13b592f7ab526dc594a3c611649ec9edec21e118ef867022"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_comments.py",
+      "size": 10944,
+      "sha256": "ec58b03e4349bbd08ef524ee7a9df9aea055ad1e313ef305aba07daed886f1ca"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_common.py",
+      "size": 3458,
+      "sha256": "71c0df028bfac8a2b5d8ed0a878836a431882eeacae73607995bbe91e7d9fdf7"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_create.py",
+      "size": 6564,
+      "sha256": "32ec0597f9fd99cd03698de4d2c8c0c6577de5c3e36dac846f200989a6fe6d3d"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_edit.py",
+      "size": 8869,
+      "sha256": "e0117f91aae7e7c461626bf99a15bc06d63b1cbc7ba157e1a5a59122148e5aac"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_read.py",
+      "size": 5554,
+      "sha256": "d87e845398854aa634daf1d7d1c762d75556d0485277a719a589cf6dbbbb224f"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_revisions.py",
+      "size": 4718,
+      "sha256": "68ce00eb5b097cc477f9649e7da04414f94f5785cfc62b550970fdf64af631b6"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_template.py",
+      "size": 2552,
+      "sha256": "8bf4c461dc631b8f870893892b5585d4e9b7e8e255667883f265b85acfc5acc2"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/scripts/docx_validate.py",
+      "size": 6356,
+      "sha256": "1ad85c59eb7ac8c172ad239e1b0ec1ff3e57a987653877487bf38d0911c115e4"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/docx/tests/test_docx_skill.py",
+      "size": 21792,
+      "sha256": "9a9a4b430bfc7498187829bd1e89ab2c5e84f7522c1ab7c87532eee9c0c28e82"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/format-preserving-translation/SKILL.md",
+      "size": 8886,
+      "sha256": "25a1e863e496b63b7822c2a7449faa34c3e6bab6160ac52bc04ae70b0606e832"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/format-preserving-translation/scripts/pdf_facsimile.py",
+      "size": 15466,
+      "sha256": "a9d4b6bce9c7c51385a5b652d8326876ea6a5b1ab825e2bd27900c5b358fd6d9"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/format-preserving-translation/scripts/pdf_layout_locked.py",
+      "size": 11590,
+      "sha256": "93a95c6bc949c73bb954ccba0bb00b2cf32cdeb72b81068886537df05f730992"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/ocr-and-documents/DESCRIPTION.md",
+      "size": 150,
+      "sha256": "7a7da1c54b43222e8f65c0854016e971eaf64c16449d479f2be8c947633d6fa8"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/ocr-and-documents/SKILL.md",
+      "size": 5959,
+      "sha256": "9475ea5c3713806edde5d2d3aa36549ac1d173286b38b37e5f7de004c834e48a"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "size": 3121,
+      "sha256": "8643b18971a619e6dc2eeff67f1931ba300be8b348a10558af0e27b00ef0faae"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "size": 3230,
+      "sha256": "a70dca63abba7abf4a551212823116954392a51ff0187593c2feb0b63dd05f85"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/LICENSE",
+      "size": 1091,
+      "sha256": "e3cbb473240e1d307d61809891b26ae8956e401d39ad2ea5e2c407d69298dbc5"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/SKILL.md",
+      "size": 12366,
+      "sha256": "6cb178dc2611e2f73cbb80a8be7a9b84a7b58cdec62fc2d1b6a536e47de02831"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/references/forms.md",
+      "size": 4049,
+      "sha256": "24867dc4536502d9877cb07d45fa9ce7ac0e8659c3d6010a68a48372e33171de"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/_raster.py",
+      "size": 2690,
+      "sha256": "49aa146bc9f443031aea0071046781467dcbd770180e81bd36c719ae0157d0f3"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_create.py",
+      "size": 4692,
+      "sha256": "63868d2ad308c4a26c52845a22b821c3b17b915ad6c7cf9aae4fe11c8ada85d9"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_fill_form.py",
+      "size": 3984,
+      "sha256": "902101bea708deaffaf94f3be1ceccae2a138f19553ddbb53e77d3945923b43f"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_form_layout.py",
+      "size": 7299,
+      "sha256": "8b87d6f17d5826beeee236717dd03c182c9ea9253f7e35325a7c697302ed219f"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_make_form.py",
+      "size": 6133,
+      "sha256": "0eaec2ced3a7d3947b7c37be35eb4ad330bec5994e04efa6189787b14a72a33d"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_merge.py",
+      "size": 1736,
+      "sha256": "9005a2d47c57571e866d646f84e565f4644ef950c52d03ae6a35516c6e6456f9"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_meta.py",
+      "size": 4573,
+      "sha256": "e167fc27d79517052ddc247af933afbe73efd350f1e6b7010ac7332e81069cde"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_page_image.py",
+      "size": 3669,
+      "sha256": "3765305fc4e48abe11a52519d0fce74b49bcae5082752d677de0c357c6e8885b"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_read.py",
+      "size": 6029,
+      "sha256": "3bec18211a4a3b81fa0b644d3acf56113e0582f023490730a9b16ccba37fc880"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_secure.py",
+      "size": 2750,
+      "sha256": "01640d8a99106f6effe1c0a54e4274056c6df21919046d4816351fd6dcd4dc57"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_split.py",
+      "size": 3129,
+      "sha256": "b643f4912ff9d485d8101b2ae22f5c2d3e933b1807854465c462ac0d7d708137"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_stamp.py",
+      "size": 5922,
+      "sha256": "c614df92118568962ed11cca8a91fc1d4b4bb31ba8c9428f42f558b3df44d01e"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/scripts/pdf_watermark.py",
+      "size": 1903,
+      "sha256": "9fe47cdaff3fe4afb8bb8fdc36e2668613f62da4906103f8ea3a1048c5d764b2"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/pdf/tests/test_pdf_skill.py",
+      "size": 17847,
+      "sha256": "01f0105fc42cd4ea36be3b90a4322446a0f8ae79d844cfd9a66d2b999bb30777"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/LICENSE",
+      "size": 1091,
+      "sha256": "e3cbb473240e1d307d61809891b26ae8956e401d39ad2ea5e2c407d69298dbc5"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/SKILL.md",
+      "size": 11001,
+      "sha256": "4833aeb9b7839418f9adf804c6c95f4ebea370fdd7b5e0c21d781df605e5e645"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/scripts/pptx_create.py",
+      "size": 8793,
+      "sha256": "96b340d52cc3e88191ca5e09b2348e16cc42c3425e22febc262f2aeae78d4045"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/scripts/pptx_edit.py",
+      "size": 17660,
+      "sha256": "020ecfb1ddfd41973e8fcf9f65b16050a18180ff03af27fc8f98925b07aac7b6"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/scripts/pptx_from_template.py",
+      "size": 3519,
+      "sha256": "0a8effaf23722b70a4d4582421cc4104cac3a882ab21bcd9adf1b46a75171dad"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/scripts/pptx_read.py",
+      "size": 4892,
+      "sha256": "87ec67f78f3d38abdec4b0995568379ba8da8c185591c139c1eeb2d729b29a92"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/scripts/pptx_render.py",
+      "size": 3629,
+      "sha256": "dfb99777f3e70c610ba1b0f10c81622da90076305092e25e511eb386476231bd"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/powerpoint/tests/test_powerpoint_skill.py",
+      "size": 19999,
+      "sha256": "b00d8de49f1dc8de1cd2e9111c5765a59cc79ee9288c0e8c8e45ef274c2e9b1e"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/SKILL.md",
+      "size": 6160,
+      "sha256": "22994f16018bfb558c44d927f3bb1674f4c50e0dc1b379e51bafe91324a94d25"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/references/chinese-russian-engineering.md",
+      "size": 4326,
+      "sha256": "e928514e5322b9eeb07522d65aaa4bbf4ddd0b058650e6ce7a0ebc1b43ca7c72"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/references/cross-jurisdictional-standards-comparison.md",
+      "size": 2658,
+      "sha256": "a8655eb42a4cc766d731cbbcb73b0e4c859c3eaa572ffc0cf0d37d64c8222391"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/references/full-document-scope-and-table-preservation.md",
+      "size": 1892,
+      "sha256": "316dad6552b70f60f5e70a2e9ac9909693317a75ceeb7bb54d65c1a8200061b8"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/references/mixed-language-calculation-books.md",
+      "size": 3808,
+      "sha256": "04c12b208910a4572ff88622fc3a2fe9c9bd12a4197970435e59d7be540295e4"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/references/pdf-boundary-and-coverage-qc.md",
+      "size": 4163,
+      "sha256": "7e5407a77e70e57fc19374d83a3a7e3cad3e22d4c708e2da267a190bf0d1fadd"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/technical-document-translation/scripts/verify_bilingual_fragments.py",
+      "size": 2671,
+      "sha256": "8fd717093ca7e21b007f62594bc78ea9738605a0a0d4942013a7d823e9359821"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/LICENSE",
+      "size": 1091,
+      "sha256": "e3cbb473240e1d307d61809891b26ae8956e401d39ad2ea5e2c407d69298dbc5"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/SKILL.md",
+      "size": 9851,
+      "sha256": "9104af4f283b364f9dc21793a8fd87a6e854deedf8fa81f537c97994d2d24138"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/references/restructuring.md",
+      "size": 3759,
+      "sha256": "e76a030e3806163910a5ff812e0d6ddb9bf01499acfedaf2cd8a9539bba26b54"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/csv_to_xlsx.py",
+      "size": 3550,
+      "sha256": "66d1fc2386bfe6bedabfbed721dc9b498695d0d9338d01721dc42f87e0382951"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_create.py",
+      "size": 10117,
+      "sha256": "b11f7b99242ae5223791ee162efe265e5fc924582cce9ea3e60aef59b6cf4d3e"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_edit.py",
+      "size": 11091,
+      "sha256": "6f8dfa3df50b98aa79544393c42911cfd62ce560e039e612412f45ddc3060fc6"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_read.py",
+      "size": 5966,
+      "sha256": "6805bddd8a8200e0ef5073bc4aa34231a3d611bcfb63503bb4efe980def1c491"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_recalc.py",
+      "size": 4284,
+      "sha256": "1445c5f0a726b8811e660092050a80bd1db3cd54d6c3ec05411fa5076435506e"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_restructure.py",
+      "size": 14076,
+      "sha256": "56f8996e80fccd5e5682cb16cb0c811cb0b8495977eb860af3b8e6fb884c376c"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/scripts/xlsx_to_csv.py",
+      "size": 2436,
+      "sha256": "9a692482c6c81250cc190674d3fd6dec64f712a6413086e671b09c620c0441ad"
+    },
+    {
+      "path": "profiles/translator/skills/productivity/xlsx/tests/test_xlsx_skill.py",
+      "size": 22498,
+      "sha256": "c7811e36ca7d4f49d01898031219b4b7321c78c5cd9de02595d5a1d34628fbf8"
+    },
+    {
+      "path": "profiles/translator/workspace.hermes.md",
+      "size": 2597,
+      "sha256": "91d60975694f2f3176410389dc214416f7dbdfd032fd2682d5b737eff3d3a982"
+    },
+    {
+      "path": "requirements-documents.txt",
+      "size": 80,
+      "sha256": "f35f531c4704f26ecc5baccb0d3b8b4217ec41d63460d6484cd9f1982a7b78ff"
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "size": 1572,
+      "sha256": "7a4d086d45738377f900e1b0546a41186fa40111f7b70c500b307b6dee0ca59a"
+    },
+    {
+      "path": "scripts/install_profiles.py",
+      "size": 6234,
+      "sha256": "ccf1dd87dd80d79188fc8804d85dde51b452243007db12b65b286815c8dd6edb"
+    },
+    {
+      "path": "scripts/uninstall_profiles.py",
+      "size": 1364,
+      "sha256": "03dcd0c60454de4e352abe75ebeeffe58aa0489afe1c0aca46668a1342a24e43"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "size": 4467,
+      "sha256": "f28922412a9da703b5139112721bc88f3e6f139212fdf9432bf95e18b952343e"
+    },
+    {
+      "path": "tests/fixtures/test_en.txt",
+      "size": 267,
+      "sha256": "3bf7ada99f14a34bd92a301fe1a16d3609ea7d16acefd60fddd06279bb9865e9"
+    },
+    {
+      "path": "tests/fixtures/test_injection.txt",
+      "size": 121,
+      "sha256": "c67617f6a09816d5a16e11f15ffa9e95ec922e1a7f827ce6438867f514dac3ef"
+    },
+    {
+      "path": "tests/fixtures/test_zh.txt",
+      "size": 309,
+      "sha256": "6f2c15bc2c6e4789f58a8726289355f249a3baf6cff0e24fbd99759b92df5c15"
+    },
+    {
+      "path": "tests/install_acceptance.json",
+      "size": 921,
+      "sha256": "4c0f89538b071ef86e7e196f378a5441186f49c5a4e2684d424156b91617802b"
+    },
+    {
+      "path": "tests/test_repository.py",
+      "size": 925,
+      "sha256": "bb99c85f40f5d529be549eeddbeb55f8449854982a88de1637360c9967f8e19f"
+    }
+  ]
+}

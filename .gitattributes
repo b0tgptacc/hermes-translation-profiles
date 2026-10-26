@@ -1,0 +1,2 @@
+# Preserve exact bytes so MANIFEST.json hashes survive clone/restore.
+* -text

@@ -1,0 +1,39 @@
+{
+  "name": "fasttranslator",
+  "description": "Сверхбыстрый перевод обычного английского и китайского текста на русский без файловой обработки и инструментов.",
+  "provider": "openai-codex",
+  "model": "gpt-5.6-sol",
+  "workspace_name": "HermesFastTranslator",
+  "config": {
+    "agent.reasoning_effort": "none",
+    "agent.max_turns": 1,
+    "agent.verify_on_stop": false,
+    "compression.enabled": false,
+    "display.show_reasoning": false,
+    "display.interim_assistant_messages": false,
+    "memory.memory_enabled": false,
+    "memory.user_profile_enabled": false,
+    "curator.enabled": false,
+    "security.redact_secrets": true,
+    "approvals.mode": "smart"
+  },
+  "disable_toolsets": [
+    "web",
+    "browser",
+    "terminal",
+    "file",
+    "code_execution",
+    "vision",
+    "skills",
+    "todo",
+    "memory",
+    "session_search",
+    "clarify",
+    "delegation",
+    "cronjob",
+    "computer_use",
+    "image_gen",
+    "bfl",
+    "tts"
+  ]
+}

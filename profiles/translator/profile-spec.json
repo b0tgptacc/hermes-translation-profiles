@@ -1,0 +1,33 @@
+{
+  "name": "translator",
+  "description": "Полный технический перевод EN/ZH→RU с сохранением структуры, локальной обработкой и fail-closed QA.",
+  "provider": "openai-codex",
+  "model": "gpt-5.6-sol",
+  "workspace_name": "HermesTranslator",
+  "config": {
+    "agent.verify_on_stop": true,
+    "security.redact_secrets": true,
+    "approvals.mode": "smart"
+  },
+  "disable_toolsets": [
+    "web",
+    "browser",
+    "cronjob",
+    "memory",
+    "session_search",
+    "image_gen",
+    "bfl",
+    "tts"
+  ],
+  "required_python_modules": [
+    "pymupdf",
+    "pypdf",
+    "pdfplumber",
+    "python-docx",
+    "python-pptx",
+    "openpyxl",
+    "Pillow",
+    "reportlab",
+    "lxml"
+  ]
+}

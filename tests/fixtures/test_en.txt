@@ -1,0 +1,1 @@
+Before commissioning, verify that all pressure sensors are calibrated and that the emergency shutdown circuit is operational. Do not modify equipment tags, values, or units: PT-204, 6.3 MPa, 24 V DC. If any mandatory check fails, commissioning shall stop immediately.

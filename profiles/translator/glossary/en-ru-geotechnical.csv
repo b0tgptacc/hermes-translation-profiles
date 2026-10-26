@@ -1,0 +1,11 @@
+source,target,status,note
+geotechnical investigation,инженерно-геотехнические изыскания,approved,
+soil,грунт,approved,
+rock,скальная порода,review,context-dependent
+bearing capacity,несущая способность,approved,
+groundwater,подземные воды,approved,
+standard penetration test,стандартное пенетрационное испытание,review,align with project terminology
+cone penetration test,статическое зондирование,approved,
+pressuremeter test,прессиометрическое испытание,approved,
+shear strength,сопротивление сдвигу,approved,
+deformation modulus,модуль деформации,approved,
